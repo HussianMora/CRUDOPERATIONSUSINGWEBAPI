@@ -12,6 +12,7 @@ namespace CRUDWithWebAPI.Controllers
 {
     public class EmployeeController : Controller
     {
+        //Class used to establish connection to database
         private SqlConnection Connection()
         {
             try
